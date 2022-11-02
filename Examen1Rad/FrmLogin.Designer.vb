@@ -23,12 +23,12 @@ Partial Class FrmLogin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.btnIngresar = New System.Windows.Forms.Button()
         Me.txtpassword = New System.Windows.Forms.TextBox()
         Me.txtuser = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.PictureBox()
+        Me.btnIngresar = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.btnSalir, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -37,27 +37,17 @@ Partial Class FrmLogin
         'btnCancelar
         '
         Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancelar.Location = New System.Drawing.Point(173, 310)
+        Me.btnCancelar.Location = New System.Drawing.Point(170, 310)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(81, 37)
         Me.btnCancelar.TabIndex = 14
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = True
         '
-        'btnIngresar
-        '
-        Me.btnIngresar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIngresar.Location = New System.Drawing.Point(33, 310)
-        Me.btnIngresar.Name = "btnIngresar"
-        Me.btnIngresar.Size = New System.Drawing.Size(81, 37)
-        Me.btnIngresar.TabIndex = 13
-        Me.btnIngresar.Text = "Ingresar"
-        Me.btnIngresar.UseVisualStyleBackColor = True
-        '
         'txtpassword
         '
         Me.txtpassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtpassword.Location = New System.Drawing.Point(130, 264)
+        Me.txtpassword.Location = New System.Drawing.Point(127, 264)
         Me.txtpassword.MaxLength = 15
         Me.txtpassword.Name = "txtpassword"
         Me.txtpassword.Size = New System.Drawing.Size(100, 22)
@@ -66,7 +56,7 @@ Partial Class FrmLogin
         'txtuser
         '
         Me.txtuser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtuser.Location = New System.Drawing.Point(130, 215)
+        Me.txtuser.Location = New System.Drawing.Point(127, 215)
         Me.txtuser.MaxLength = 15
         Me.txtuser.Name = "txtuser"
         Me.txtuser.Size = New System.Drawing.Size(100, 22)
@@ -78,7 +68,7 @@ Partial Class FrmLogin
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(43, 270)
+        Me.Label2.Location = New System.Drawing.Point(40, 270)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(80, 16)
         Me.Label2.TabIndex = 9
@@ -90,7 +80,7 @@ Partial Class FrmLogin
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(43, 215)
+        Me.Label1.Location = New System.Drawing.Point(40, 215)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(45, 16)
         Me.Label1.TabIndex = 8
@@ -100,18 +90,30 @@ Partial Class FrmLogin
         '
         Me.btnSalir.BackColor = System.Drawing.Color.Transparent
         Me.btnSalir.Image = Global.Examen1Rad.My.Resources.Resources.cerrar__1_
-        Me.btnSalir.Location = New System.Drawing.Point(253, 6)
+        Me.btnSalir.Location = New System.Drawing.Point(250, 6)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(37, 28)
         Me.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnSalir.TabIndex = 15
         Me.btnSalir.TabStop = False
         '
+        'btnIngresar
+        '
+        Me.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.btnIngresar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIngresar.Image = Global.Examen1Rad.My.Resources.Resources._341_3418895_boton_entrar_png_traffic_sign_transparent_png
+        Me.btnIngresar.Location = New System.Drawing.Point(30, 310)
+        Me.btnIngresar.Name = "btnIngresar"
+        Me.btnIngresar.Size = New System.Drawing.Size(81, 37)
+        Me.btnIngresar.TabIndex = 13
+        Me.btnIngresar.Text = "Ingresar"
+        Me.btnIngresar.UseVisualStyleBackColor = True
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.Examen1Rad.My.Resources.Resources.Crystal_Clear_app_Login_Manager_2
-        Me.PictureBox1.Location = New System.Drawing.Point(65, 29)
+        Me.PictureBox1.Location = New System.Drawing.Point(62, 29)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(157, 157)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -123,7 +125,7 @@ Partial Class FrmLogin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(317, 384)
+        Me.ClientSize = New System.Drawing.Size(296, 384)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.btnIngresar)
@@ -145,10 +147,10 @@ Partial Class FrmLogin
 
     Friend WithEvents btnSalir As PictureBox
     Friend WithEvents btnCancelar As Button
-    Friend WithEvents btnIngresar As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents txtpassword As TextBox
     Friend WithEvents txtuser As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnIngresar As Button
 End Class

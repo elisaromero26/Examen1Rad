@@ -180,5 +180,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\341-3418895_boton-entrar-png-traffic-sign-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\341-3418895_boton-entrar-png-traffic-sign-transparent-png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\891389.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

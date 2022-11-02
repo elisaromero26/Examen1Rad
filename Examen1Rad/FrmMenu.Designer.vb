@@ -25,12 +25,13 @@ Partial Class FrmMenu
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SUCURSALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EMPLEADOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SALIRToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SUCURSALESToolStripMenuItem, Me.EMPLEADOSToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SUCURSALESToolStripMenuItem, Me.EMPLEADOSToolStripMenuItem, Me.SALIRToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(808, 24)
@@ -48,6 +49,12 @@ Partial Class FrmMenu
         Me.EMPLEADOSToolStripMenuItem.Name = "EMPLEADOSToolStripMenuItem"
         Me.EMPLEADOSToolStripMenuItem.Size = New System.Drawing.Size(86, 20)
         Me.EMPLEADOSToolStripMenuItem.Text = "EMPLEADOS"
+        '
+        'SALIRToolStripMenuItem
+        '
+        Me.SALIRToolStripMenuItem.Name = "SALIRToolStripMenuItem"
+        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
+        Me.SALIRToolStripMenuItem.Text = "SALIR"
         '
         'FrmMenu
         '
@@ -70,4 +77,5 @@ Partial Class FrmMenu
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents SUCURSALESToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EMPLEADOSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SALIRToolStripMenuItem As ToolStripMenuItem
 End Class
