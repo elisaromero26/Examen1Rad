@@ -46,16 +46,17 @@ Partial Class FrmLogin
         '
         'txtpassword
         '
-        Me.txtpassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtpassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtpassword.Location = New System.Drawing.Point(127, 264)
         Me.txtpassword.MaxLength = 15
         Me.txtpassword.Name = "txtpassword"
+        Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpassword.Size = New System.Drawing.Size(100, 22)
         Me.txtpassword.TabIndex = 11
         '
         'txtuser
         '
-        Me.txtuser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtuser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtuser.Location = New System.Drawing.Point(127, 215)
         Me.txtuser.MaxLength = 15
         Me.txtuser.Name = "txtuser"
